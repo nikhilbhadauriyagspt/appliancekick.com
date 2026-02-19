@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Are your technicians manufacturer-certified?",
-    answer: "Every member of our technical team undergoes rigorous factory-grade training and background verification. We maintain high standards of technical excellence and professional conduct."
+    answer: "Every member of our expert team undergoes rigorous factory-grade training and background verification. We maintain high standards of service excellence and professional conduct."
   },
   {
     question: "What is your warranty policy on repairs?",
@@ -53,7 +53,7 @@ const FAQ = () => {
                     <FaLightbulb />
                   </div>
                   <h4 className="text-lg font-black text-primary mb-2">Need a custom quote?</h4>
-                  <p className="text-slate-400 text-sm font-medium mb-6">Our experts are ready to assist with complex technical inquiries.</p>
+                  <p className="text-slate-400 text-sm font-medium mb-6">Our experts are ready to assist with complex service inquiries.</p>
                   <a href="tel:+15305544817" className="inline-flex items-center gap-2 text-secondary font-black uppercase tracking-widest text-[10px] hover:gap-4 transition-all">
                     Connect With Us &rarr;
                   </a>

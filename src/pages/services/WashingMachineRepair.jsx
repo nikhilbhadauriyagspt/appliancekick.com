@@ -37,7 +37,7 @@ const WashingMachineRepair = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Washing Machine Repair | Expert Technical Service | Appliance Kick</title>
+        <title>Washing Machine Repair | Expert Service | Appliance Kick</title>
         <meta name="description" content="Professional washing machine repair services for all major brands. Same-day diagnostics and genuine part replacements by certified technicians." />
       </Helmet>
 
@@ -91,7 +91,7 @@ const WashingMachineRepair = () => {
               </h2>
 
               <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 font-medium">
-                Modern washing machines are complex systems that require specialized technical knowledge. Our certified experts use precision tools to identify mechanical and electrical faults, ensuring your machine returns to peak performance.
+                Modern washing machines are complex systems that require specialized expert knowledge. Our certified experts use precision tools to identify mechanical and electrical faults, ensuring your machine returns to peak performance.
               </p>
 
               <div className="flex flex-col gap-5 mb-12">

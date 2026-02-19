@@ -51,7 +51,7 @@ const Comparison = () => {
                  {[
                    "Verified manufacturer-grade components",
                    "Prompt service appointment response",
-                   "Systematic technical diagnostics",
+                   "Systematic expert diagnostics",
                    "Upfront digital service estimates",
                    "Standard labor warranty on repairs"
                  ].map((t, i) => (

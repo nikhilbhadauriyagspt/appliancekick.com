@@ -47,8 +47,8 @@ const RefundPolicy = () => {
               Appliance Kick<br />
               Attn: Returns<br />
               RMA #<br />
-              Grandview<br />
-              Glendale, CA 91201<br />
+              2010 N Loop W #105<br />
+              Houston, TX 77018<br />
               United States
             </address>
             <p className="mt-6">Return shipping charges will be paid or reimbursed by us.</p>
@@ -79,7 +79,6 @@ const RefundPolicy = () => {
               If you have any questions concerning our return policy, please contact us at:
             </p>
             <div className="bg-primary text-white p-8 rounded-2xl shadow-xl mt-4">
-              <p className="font-bold text-xl mb-2">+1 (530) 554-4817</p>
               <a href="mailto:ApplianceKick@outlook.com" className="text-secondary font-bold text-lg hover:underline">ApplianceKick@outlook.com</a>
             </div>
           </section>

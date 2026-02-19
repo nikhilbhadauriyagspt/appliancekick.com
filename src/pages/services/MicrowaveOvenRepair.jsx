@@ -37,7 +37,7 @@ const MicrowaveOvenRepair = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Microwave Oven Repair | Professional Technical Service | Appliance Kick</title>
+        <title>Microwave Oven Repair | Professional Service | Appliance Kick</title>
         <meta name="description" content="Expert microwave repair services for all major brands. Safe diagnostics for heating issues, control panels, and high-voltage components." />
       </Helmet>
 
@@ -57,8 +57,7 @@ const MicrowaveOvenRepair = () => {
             Microwave Oven <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Specialized technical support for countertop, over-the-range, and built-in microwaves. Restoring your kitchen efficiency with expert care.
-          </p>
+                         Specialized support for countertop, over-the-range, and built-in microwaves. Restoring your kitchen efficiency with expert care.          </p>
         </div>
       </section>
 
@@ -154,7 +153,7 @@ const MicrowaveOvenRepair = () => {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#ff6a00]/10 rounded-full translate-y-1/2 -translate-x-1/2 animate-pulse"></div>
 
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-10 leading-tight  relative z-10">
-              Technical Safety & Speed <br />
+              Safety & Speed <br />
               <span className="text-[#ff6a00]">Restore Your Microwave Today</span>
             </h2>
 

@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
-import { useBooking } from '../context/BookingContext';
+import { Link } from 'react-router-dom';
 
 const About = () => {
-  const { openBookingModal } = useBooking();
   return (
     <section className="py-24 bg-white font-sans overflow-hidden" id="about">
       <div className="container mx-auto px-6 md:px-12 lg:px-0">
@@ -38,13 +37,13 @@ const About = () => {
 
             {/* Short Descriptive Paragraph */}
             <p className="text-gray-500 text-lg md:text-[18px] leading-relaxed mb-10 max-w-xl font-medium">
-              We are a dedicated team of professionals providing reliable and high-quality repair services. Our focus is on delivering technical excellence and ensuring your essential home equipment is fixed right the first time.
+              We are a dedicated team of professionals providing reliable and high-quality repair services. Our focus is on delivering service excellence and ensuring your essential home equipment is fixed right the first time.
             </p>
 
             {/* Authentic Bullet Points - One Per Line */}
             <div className="flex flex-col gap-3 mb-12">
               {[
-                "Certified and highly skilled technical team you can trust",
+                "Certified and highly skilled expert team you can trust",
                 "Transparent pricing with no hidden charges or surprises",
                 "Prompt and dependable same-day service at your convenience",
                 "Genuine spare parts with complete quality assurance"
@@ -60,8 +59,8 @@ const About = () => {
 
             {/* Premium Custom CTA Button */}
             <div className="flex justify-start">
-              <button
-                onClick={() => openBookingModal()}
+              <Link
+                to="/about"
                 className="group relative inline-flex items-center gap-6 pl-10 pr-2 py-1 bg-[#1E63FF] hover:bg-[#0f172a] text-white rounded-full font-black  tracking-wider text-sm transition-all duration-500  hover:shadow-[#1E63FF]/30"
               >
                 Discover Our Mission
@@ -75,7 +74,7 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </div>
-              </button>
+              </Link>
             </div>
           </div>
 

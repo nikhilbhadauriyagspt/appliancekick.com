@@ -37,7 +37,7 @@ const DishwasherRepair = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Dishwasher Repair | Expert Technical Service | Appliance Kick</title>
+        <title>Dishwasher Repair | Expert Service | Appliance Kick</title>
         <meta name="description" content="Professional dishwasher repair for all built-in and portable units. Fast diagnostics for drainage, heating, and electronic issues." />
       </Helmet>
 
@@ -57,8 +57,7 @@ const DishwasherRepair = () => {
             Dishwasher <span className="text-[#ff6a00]">Repair</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Specialized technical support for all dishwasher models. Ensuring your kitchen runs smoothly with high-performance repairs.
-          </p>
+                         Specialized support for all dishwasher models. Ensuring your kitchen runs smoothly with high-performance repairs.          </p>
         </div>
       </section>
 

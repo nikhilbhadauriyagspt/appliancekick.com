@@ -13,7 +13,7 @@ const OtherAppliances = () => {
 
   const features = [
     {
-      title: "Technical Audit",
+      title: "Expert Audit",
       desc: "Comprehensive diagnostic testing for all types of small and large household equipment.",
       icon: <FaSearch />
     },
@@ -38,7 +38,7 @@ const OtherAppliances = () => {
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
         <title>General Appliance Repair | Expert Household Solutions | Appliance Kick</title>
-        <meta name="description" content="Professional repair services for various household appliances. Certified technical support for all your domestic equipment needs." />
+        <meta name="description" content="Professional repair services for various household appliances. Certified support for all your domestic equipment needs." />
       </Helmet>
 
       {/* Page Hero Section */}
@@ -57,8 +57,7 @@ const OtherAppliances = () => {
             Household <span className="text-[#ff6a00]">Fixes</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Reliable technical support for a wide variety of domestic equipment. Providing professional-grade restoration for all your home essentials.
-          </p>
+                         Reliable support for a wide variety of domestic equipment. Providing professional-grade restoration for all your home essentials.          </p>
         </div>
       </section>
 
@@ -155,7 +154,7 @@ const OtherAppliances = () => {
 
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-10 leading-tight  relative z-10">
               No Fix is Too Big or Small <br />
-              <span className="text-[#ff6a00]">Book a Technical Assessment Today</span>
+              <span className="text-[#ff6a00]">Book an Expert Assessment Today</span>
             </h2>
 
             <div className="flex justify-center relative z-10">

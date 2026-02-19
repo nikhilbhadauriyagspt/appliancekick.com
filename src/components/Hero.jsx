@@ -13,13 +13,13 @@ const slides = [
   {
     id: 1,
     title: "PROFESSIONAL HOME APPLIANCE REPAIR",
-    subtitle: "TECHNICAL SERVICE DIVISION",
+    subtitle: "EXPERT SERVICE DIVISION",
     bgImage: "/banner/hero-1.jpg",
     cta: "REQUEST SERVICE",
     specs: ["SERVICE WARRANTY", "VERIFIED SPARE PARTS", "SCHEDULED VISITS"],
     cardInfo: {
       title: "Diagnostic Audit",
-      desc: "Comprehensive technical assessment of household appliances by our skilled technical team.",
+      desc: "Comprehensive expert assessment of household appliances by our skilled expert team.",
       code: "SERVICE-UNIT: A1",
       icon: <FaTools />,
       progress: "w-full",
@@ -29,13 +29,13 @@ const slides = [
   {
     id: 2,
     title: "REFRIGERATOR COOLING SOLUTIONS",
-    subtitle: "TECHNICAL MAINTENANCE TEAM",
+    subtitle: "EXPERT MAINTENANCE TEAM",
     bgImage: "/banner/hero-2.jpg",
     cta: "SCHEDULE FIX",
     specs: ["GAS REFILLING", "COMPRESSOR REPAIR", "RESIDENTIAL SERVICE"],
     cardInfo: {
       title: "Thermal Analysis",
-      desc: "Temperature calibration and technical pressure verification for cooling systems.",
+      desc: "Temperature calibration and expert pressure verification for cooling systems.",
       code: "COOL-UNIT: B2",
       icon: <FaSnowflake />,
       progress: "w-4/5",
@@ -69,7 +69,7 @@ const Hero = () => {
       <div className="absolute inset-0 pointer-events-none z-30 opacity-30">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-secondary/20 animate-scan pointer-events-none"></div>
         <div className="absolute left-8 top-1/2 -rotate-90 origin-left hidden xl:block">
-          <span className="text-[9px] font-black tracking-[6px] text-white/30 uppercase">TECHNICAL INTERFACE</span>
+          <span className="text-[9px] font-black tracking-[6px] text-white/30 uppercase">SERVICE INTERFACE</span>
         </div>
         <div className="absolute top-8 left-8 w-10 h-10 border-t border-l border-white/20"></div>
         <div className="absolute top-8 right-8 w-10 h-10 border-t border-r border-white/20"></div>
@@ -126,7 +126,7 @@ const Hero = () => {
                           <span className="relative z-10 flex items-center gap-3">{slide.cta} <FaArrowRight size={10} /></span>
                           <div className="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
                         </button>
-                        <a href="tel:+15305544817" className="flex items-center gap-4 text-white hover:text-secondary transition-all">
+                        <a href="tel:+15305544817" className="hidden flex items-center gap-4 text-white hover:text-secondary transition-all">
                           <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shadow-lg"><FaPhoneAlt size={16} /></div>
                           <div className="text-left leading-none">
                             <span className="block text-[9px] font-black text-white/40 uppercase tracking-[1px] mb-1.5">Direct Line</span>

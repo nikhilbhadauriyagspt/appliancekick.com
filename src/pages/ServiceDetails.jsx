@@ -22,7 +22,7 @@ const ServiceDetails = () => {
         </Helmet>
         <div className="text-center">
           <h2 className="text-6xl font-black text-primary mb-6 tracking-tighter uppercase">404</h2>
-          <p className="text-slate-500 mb-8 font-medium uppercase tracking-widest">Technical Path Not Found</p>
+          <p className="text-slate-500 mb-8 font-medium uppercase tracking-widest">Service Path Not Found</p>
           <Link to="/" className="inline-block bg-primary text-white px-10 py-4 rounded-2xl font-black uppercase tracking-[3px] text-xs hover:bg-secondary transition-all shadow-xl">
             Return to Base
           </Link>
@@ -84,7 +84,7 @@ const ServiceDetails = () => {
             </div>
           </div>
 
-          {/* Technical Protocol Content */}
+          {/* Service Protocol Content */}
           <div className="w-full lg:w-1/2">
             <div className="inline-flex items-center gap-3 bg-secondary/10 px-4 py-2 rounded-full mb-6">
                <span className="text-secondary text-[10px] font-black uppercase tracking-[3px]">Protocol: Certified Service</span>
@@ -132,7 +132,7 @@ const ServiceDetails = () => {
           </div>
         </div>
 
-        {/* New Section: Technical Workflow */}
+        {/* New Section: Service Workflow */}
         <div className="mb-32">
            <div className="text-center max-w-3xl mx-auto mb-20">
               <h3 className="text-3xl md:text-5xl font-black text-primary mb-6 tracking-tighter uppercase">Standard Repair <span className="text-secondary">Protocol</span></h3>
@@ -199,7 +199,7 @@ const ServiceDetails = () => {
            </div>
            <h3 className="text-3xl md:text-4xl font-black text-primary mb-6 tracking-tighter uppercase">The VISTA® Guarantee</h3>
            <p className="text-slate-500 text-lg font-medium leading-relaxed mb-10">
-              We stand firmly behind our engineering. All technical labor is backed by a 30-day warranty, and replaced components carry a manufacturer warranty of up to 90 days.
+              We stand firmly behind our engineering. All service labor is backed by a 30-day warranty, and replaced components carry a manufacturer warranty of up to 90 days.
            </p>
            <button 
              onClick={() => openBookingModal(service.title)}

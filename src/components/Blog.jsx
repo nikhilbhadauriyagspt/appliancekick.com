@@ -50,7 +50,7 @@ const Blog = () => {
               <div className="p-10 flex-grow flex flex-col">
                 <div className="flex items-center gap-2 text-secondary text-[10px] font-black uppercase tracking-[2px] mb-4">
                   <FaTag size={10} />
-                  <span>Technical Guide</span>
+                  <span>Expert Guide</span>
                 </div>
 
                 <h3 className="text-2xl font-black text-primary mb-4 group-hover:text-secondary transition-colors leading-tight tracking-tight">

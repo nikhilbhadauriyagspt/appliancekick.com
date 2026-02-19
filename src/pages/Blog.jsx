@@ -69,8 +69,7 @@ const Blog = () => {
 
                 {/* Content Snippet */}
                 <p className="text-gray-500 text-base mb-8 line-clamp-3 font-medium">
-                  {blog.excerpt || "Learn more about high-quality appliance maintenance and expert repair solutions from our certified technical team."}
-                </p>
+                                     {blog.excerpt || "Learn more about high-quality appliance maintenance and expert repair solutions from our certified expert team."}                </p>
 
                 {/* Read More Button */}
                 <Link 

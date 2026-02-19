@@ -75,7 +75,7 @@ const BookingModal = () => {
                 <span className="text-secondary text-[10px] font-black uppercase tracking-[3px]">Priority Scheduling</span>
               </div>
               <h3 className="text-4xl font-black text-primary leading-none tracking-tighter mb-2">Book a Service</h3>
-              <p className="text-slate-400 text-xs font-bold uppercase tracking-[2px]">Guaranteed technical excellence at your doorstep</p>
+              <p className="text-slate-400 text-xs font-bold uppercase tracking-[2px]">Guaranteed service excellence at your doorstep</p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">

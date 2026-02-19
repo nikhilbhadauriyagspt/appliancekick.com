@@ -13,7 +13,7 @@ const About = () => {
   const coreValues = [
     {
       icon: <FaShieldAlt />,
-      title: "Technical Excellence",
+      title: "Service Excellence",
       desc: "We adhere to strict manufacturer-mandated diagnostic protocols for every repair.",
       color: "bg-blue-50 text-[#1E63FF]"
     },
@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: <FaClock />,
       title: "Reliable Response",
-      desc: "We value your time, offering same-day service and prompt technical support.",
+      desc: "We value your time, offering same-day service and prompt support.",
       color: "bg-green-50 text-green-600"
     }
   ];
@@ -35,7 +35,7 @@ const About = () => {
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
         <title>About Us | Appliance Kick - Professional Repair Standards</title>
-        <meta name="description" content="Learn about Appliance Kick's commitment to professional appliance repair standards, technical expertise, and transparent service delivery." />
+        <meta name="description" content="Learn about Appliance Kick's commitment to professional appliance repair standards, professional expertise, and transparent service delivery." />
         <link rel="canonical" href="https://www.appliancekick.com/about" />
       </Helmet>
 
@@ -54,8 +54,7 @@ const About = () => {
             About <span className="text-[#ff6a00]">Appliance Kick</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Leading the industry with systematic technical support and professional-grade maintenance protocols for essential home equipment.
-          </p>
+                         Leading the industry with systematic support and professional-grade maintenance protocols for essential home equipment.          </p>
         </div>
       </section>
 
@@ -71,7 +70,7 @@ const About = () => {
                 <img
                   src="/aboutus/mainforntside.png"
                   className="w-full h-auto object-cover rounded-[32px] shadow-2xl"
-                  alt="Our Expert Technical Team"
+                  alt="Our Expert Service Team"
                 />
               </div>
             </div>
@@ -84,11 +83,11 @@ const About = () => {
               </div>
 
               <h2 className="text-3xl md:text-5xl font-black text-[#0f172a] mb-8 leading-tight uppercase tracking-tight">
-                Dedicated to <span className="text-[#1E63FF]">Technical Integrity</span> & Quality Care
+                Dedicated to <span className="text-[#1E63FF]">Service Integrity</span> & Quality Care
               </h2>
 
               <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 font-medium">
-                Appliance Kick was founded on the principle that modern household equipment requires a systematic, technical approach. We focus on delivering professional-grade maintenance and repair protocols that prioritize your safety and equipment performance.
+                Appliance Kick was founded on the principle that modern household equipment requires a systematic, expert approach. We focus on delivering professional-grade maintenance and repair protocols that prioritize your safety and equipment performance.
               </p>
 
               <div className="flex flex-col gap-5 mb-12">

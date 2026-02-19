@@ -10,11 +10,18 @@ const Footer = () => {
   const [status, setStatus] = useState('');
 
   const companyLinks = [
-    { name: "About", path: "/about" },
+    { name: "About Us", path: "/about" },
     { name: "Our Services", path: "/services" },
     { name: "Our Blogs", path: "/blog" },
-    { name: "Projects", path: "/projects" },
     { name: "Contact Us", path: "/contact" }
+  ];
+
+  const policyLinks = [
+    { name: "Privacy Policy", path: "/privacy-policy" },
+    { name: "Terms of Service", path: "/terms-of-service" },
+    { name: "Refund Policy", path: "/refund-policy" },
+    { name: "Disclaimer", path: "/disclaimer" },
+    { name: "Cookie Policy", path: "/cookie-policy" }
   ];
 
   const handleSubscribe = async (e) => {
@@ -48,7 +55,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="container mx-auto max-w-[1200px] relative z-10">
+      <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between pb-16 border-b border-white/10 gap-8">
           <h2 className="text-2xl md:text-3xl font-semibold text-white">Subscribe to Our Newsletter</h2>
           <form onSubmit={handleSubscribe} className="relative w-full max-w-md">
@@ -59,15 +66,18 @@ const Footer = () => {
           </form>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 py-16">
           {/* Column 1: Logo & Company Description */}
           <div className="flex flex-col gap-6">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#FF6A3D] flex items-center justify-center rounded-lg shadow-lg shadow-[#FF6A3D]/20"><span className="text-white font-black text-xl italic">A</span></div>
-              <span className="text-white text-3xl font-bold tracking-widest">ApplianceKick</span>
+            <Link to="/" className="inline-block bg-white p-4 rounded-2xl w-fit">
+              <img
+                src="/logo/logo.png"
+                alt="Appliance Kick"
+                className="w-40"
+              />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs font-medium">
-              We provide systematic technical support and professional-grade maintenance protocols for essential home equipment. Our certified team ensures your appliances operate at peak efficiency with reliable repair solutions.
+              We provide systematic support and professional-grade maintenance protocols for essential home equipment. Our certified team ensures your appliances operate at peak efficiency with reliable repair solutions.
             </p>
           </div>
 
@@ -75,6 +85,15 @@ const Footer = () => {
             <h3 className="text-white text-xl font-semibold relative after:content-[''] after:absolute after:bottom-[-8px] after:left-0 after:w-10 after:h-[2px] after:bg-[#FF6A3D]">Company</h3>
             <ul className="flex flex-col gap-4">
               {companyLinks.map((link) => (
+                <li key={link.name}><Link to={link.path} className="text-slate-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-300">{link.name}</Link></li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-6">
+            <h3 className="text-white text-xl font-semibold relative after:content-[''] after:absolute after:bottom-[-8px] after:left-0 after:w-10 after:h-[2px] after:bg-[#FF6A3D]">Policies</h3>
+            <ul className="flex flex-col gap-4">
+              {policyLinks.map((link) => (
                 <li key={link.name}><Link to={link.path} className="text-slate-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-300">{link.name}</Link></li>
               ))}
             </ul>
@@ -95,14 +114,18 @@ const Footer = () => {
           <div className="flex flex-col gap-6">
             <h3 className="text-white text-xl font-semibold relative after:content-[''] after:absolute after:bottom-[-8px] after:left-0 after:w-10 after:h-[2px] after:bg-[#FF6A3D]">Address</h3>
             <div className="flex flex-col gap-5">
-              <div className="flex flex-col gap-1">
-                <p className="text-slate-400 leading-relaxed">Serving All Major Areas</p>
-                <p className="text-slate-400">Professional Home Service</p>
+              <div className="flex flex-col gap-1 text-slate-400">
+                <p>2010 N Loop W #105,</p>
+                <p>Houston, TX 77018,</p>
+                <p>United States</p>
               </div>
               <div className="flex flex-col gap-1 pt-2">
+                <span className="text-white font-semibold text-sm uppercase tracking-widest text-[#FF6A3D]">Contact</span>
+                <a href="mailto:ApplianceKick@outlook.com" className="text-slate-400 hover:text-white transition-colors">ApplianceKick@outlook.com</a>
+              </div>
+              <div className="hidden flex flex-col gap-1 pt-2">
                 <span className="text-white font-semibold text-sm uppercase tracking-widest text-[#FF6A3D]">Phone</span>
                 <a href="tel:+15305544817" className="text-white font-bold text-lg">+1 (530) 554-4817</a>
-                <a href="mailto:ApplianceKick@outlook.com" className="text-slate-400 hover:text-white transition-colors">ApplianceKick@outlook.com</a>
               </div>
             </div>
           </div>
@@ -110,11 +133,6 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm">© Copyright 2026 by appliancekick.com</p>
-          <div className="flex gap-6 md:gap-8">
-            <Link to="/terms-of-service" className="text-slate-500 hover:text-white text-sm transition-colors">Terms & Condition</Link>
-            <Link to="/privacy-policy" className="text-slate-500 hover:text-white text-sm transition-colors">Privacy Policy</Link>
-            <Link to="/contact" className="text-slate-500 hover:text-white text-sm transition-colors">Contact us</Link>
-          </div>
         </div>
       </div>
     </footer>

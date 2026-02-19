@@ -12,7 +12,7 @@ const steps = [
     icon: <FaSearch />,
     title: "Diagnosis",
     subtitle: "Step 02",
-    desc: "Our master technician performs a deep-scan to identify the core technical fault."
+    desc: "Our master technician performs a deep-scan to identify the core fault."
   },
   {
     icon: <FaTools />,
@@ -45,7 +45,7 @@ const Process = () => {
             How We Restore <span className="text-secondary">Excellence</span>
           </h2>
           <p className="text-slate-500 text-lg font-medium leading-relaxed">
-            A systematic approach to appliance repair, ensuring transparency and technical perfection at every stage.
+            A systematic approach to appliance repair, ensuring transparency and service perfection at every stage.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ const Process = () => {
         <div className="mt-24 text-center">
           <div className="inline-block p-1 bg-slate-50 rounded-full border border-slate-100">
             <div className="flex flex-col sm:flex-row items-center gap-6 px-8 py-3">
-              <p className="text-slate-400 text-sm font-bold tracking-tight">Need immediate technical assistance?</p>
+              <p className="text-slate-400 text-sm font-bold tracking-tight">Need immediate expert assistance?</p>
               <a href="tel:+15305544817" className="px-6 py-3 bg-primary text-white text-[10px] font-black uppercase tracking-[3px] rounded-full shadow-lg hover:bg-secondary transition-colors">
                 Emergency Line
               </a>

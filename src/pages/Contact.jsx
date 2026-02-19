@@ -47,7 +47,7 @@ const Contact = () => {
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
         <title>Contact Us | Appliance Kick - Get Expert Support Today</title>
-        <meta name="description" content="Reach out to Appliance Kick for reliable home appliance repair services. Our expert team is ready to help you with all your technical needs." />
+        <meta name="description" content="Reach out to Appliance Kick for reliable home appliance repair services. Our expert team is ready to help you with all your service needs." />
       </Helmet>
 
       {/* Page Hero Section */}
@@ -94,7 +94,7 @@ const Contact = () => {
                   { icon: <FaEnvelope />, label: "Email Us", val: "ApplianceKick@outlook.com" },
                   { icon: <FaMapMarkerAlt />, label: "Location", val: "Your Service Area" },
                   { icon: <FaClock />, label: "Hours", val: "Mon-Sat: 8AM - 9PM" }
-                ].map((item, index) => (
+                ].filter(item => item.label !== "Call Us").map((item, index) => (
                   <div key={index} className="flex flex-col gap-4 p-8 rounded-[32px] bg-gray-50 border border-gray-100 hover:border-[#1E63FF]/30 transition-all group">
                     <div className="w-12 h-12 rounded-2xl bg-white shadow-sm flex items-center justify-center text-[#1E63FF] group-hover:bg-[#1E63FF] group-hover:text-white transition-all duration-300">
                       {item.icon}
@@ -117,7 +117,7 @@ const Contact = () => {
                       <FaCheckCircle size={32} />
                     </div>
                     <h3 className="text-3xl font-black text-[#0B0F3B] mb-4">Message Sent!</h3>
-                    <p className="text-gray-600 font-medium mb-10 text-lg">Thank you for reaching out. Our technical team will get back to you shortly.</p>
+                    <p className="text-gray-600 font-medium mb-10 text-lg">Thank you for reaching out. Our expert team will get back to you shortly.</p>
                     <button onClick={() => setIsSubmitted(false)} className="bg-[#1E63FF] text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-[#0B0F3B]">Send Another Message</button>
                   </div>
                 ) : (

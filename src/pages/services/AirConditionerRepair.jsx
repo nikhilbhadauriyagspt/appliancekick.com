@@ -57,8 +57,7 @@ const AirConditionerRepair = () => {
             Air Conditioner <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Reliable technical support for split, window, and central air conditioning systems. Restoring your indoor comfort with precision.
-          </p>
+                         Reliable support for split, window, and central air conditioning systems. Restoring your indoor comfort with precision.          </p>
         </div>
       </section>
 
@@ -91,7 +90,7 @@ const AirConditionerRepair = () => {
               </h2>
 
               <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 font-medium">
-                A malfunctioning AC can disrupt your daily life and lead to higher energy bills. Our technical team specializes in diagnosing airflow restrictions, compressor failures, and electronic sensor malfunctions to ensure efficient cooling.
+                A malfunctioning AC can disrupt your daily life and lead to higher energy bills. Our expert team specializes in diagnosing airflow restrictions, compressor failures, and electronic sensor malfunctions to ensure efficient cooling.
               </p>
 
               <div className="flex flex-col gap-5 mb-12">

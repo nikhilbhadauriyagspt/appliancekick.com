@@ -57,8 +57,7 @@ const WaterPurifierRepair = () => {
             Water Purifier <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Professional technical support for all RO, UV, and UF water purification systems. Ensuring pure and healthy water for your family.
-          </p>
+                         Professional support for all RO, UV, and UF water purification systems. Ensuring pure and healthy water for your family.          </p>
         </div>
       </section>
 

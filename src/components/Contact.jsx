@@ -29,7 +29,7 @@ const Contact = () => {
                 Connect with <br /><span className="text-secondary">Master Technicians</span>
               </h2>
               <p className="text-slate-500 text-lg font-medium leading-relaxed mb-12 max-w-md">
-                Experience the gold standard in appliance repair. Our technical support team is standing by to resolve your inquiries.
+                Experience the gold standard in appliance repair. Our support team is standing by to resolve your inquiries.
               </p>
 
               <div className="space-y-4">
@@ -37,7 +37,7 @@ const Contact = () => {
                   { icon: <FaPhoneAlt />, label: 'Direct Line', val: '+1 (530) 554-4817', sub: 'Available 24/7' },
                   { icon: <FaEnvelope />, label: 'Official Email', val: 'ApplianceKick@outlook.com', sub: 'Response within 12h' },
                   { icon: <FaClock />, label: 'Working Hours', val: 'Mon - Sat: 8AM - 9PM', sub: 'Sunday Emergency Only' }
-                ].map((item, i) => (
+                ].filter(item => item.label !== 'Direct Line').map((item, i) => (
                   <div key={i} className="flex items-center gap-6 p-6 rounded-[32px] bg-white border border-slate-100 shadow-sm hover:shadow-premium transition-all group">
                     <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all duration-500">
                       {item.icon}
@@ -124,13 +124,13 @@ const Contact = () => {
              style={{border:0, filter: 'grayscale(100%) contrast(1.2) invert(90%)'}} 
              loading="lazy" 
              allowFullScreen 
-             src="https://maps.google.com/maps?q=Grandview%20Glendale,%20CA%2091201,%20USA&t=&z=15&ie=UTF8&iwloc=&output=embed">
+             src="https://maps.google.com/maps?q=2010%20N%20Loop%20W%20%23105,%20Houston,%20TX%2077018,%20USA&t=&z=15&ie=UTF8&iwloc=&output=embed">
            </iframe>
            
            {/* Address Overlay Card */}
            <div className="absolute bottom-10 left-10 z-20 bg-white p-8 rounded-[32px] shadow-2xl max-w-xs border border-slate-100 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
               <h5 className="text-[10px] font-black uppercase tracking-[3px] text-secondary mb-3">Service Headquarters</h5>
-              <p className="text-primary font-black text-lg leading-tight mb-4">Grandview Glendale, California 91201, USA</p>
+              <p className="text-primary font-black text-lg leading-tight mb-4">2010 N Loop W #105, Houston, TX 77018, USA</p>
               <div className="flex items-center gap-2 text-slate-400 text-[10px] font-bold uppercase tracking-widest">
                 <FaMapMarkerAlt className="text-secondary" /> Open for walk-ins
               </div>

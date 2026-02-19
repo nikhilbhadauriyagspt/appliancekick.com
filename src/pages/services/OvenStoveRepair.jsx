@@ -57,8 +57,7 @@ const OvenStoveRepair = () => {
             Oven & Gas Stove <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Specialized technical support for gas burners, electric ovens, and modern hobs. Restoring your cooking performance with safety-first repairs.
-          </p>
+                         Specialized support for gas burners, electric ovens, and modern hobs. Restoring your cooking performance with safety-first repairs.          </p>
         </div>
       </section>
 

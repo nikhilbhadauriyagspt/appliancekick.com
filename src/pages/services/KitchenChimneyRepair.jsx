@@ -57,7 +57,7 @@ const KitchenChimneyRepair = () => {
             Kitchen Chimney <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Technical restoration and deep cleaning for all types of kitchen exhaust systems. Keeping your kitchen fresh and smoke-free.
+            Professional restoration and deep cleaning for all types of kitchen exhaust systems. Keeping your kitchen fresh and smoke-free.
           </p>
         </div>
       </section>

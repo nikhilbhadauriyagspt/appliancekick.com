@@ -57,8 +57,7 @@ const RefrigeratorRepair = () => {
             Refrigerator <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Fast and reliable technical support for all types of residential refrigerators and freezers. Keeping your food fresh with expert care.
-          </p>
+                         Fast and reliable support for all types of residential refrigerators and freezers. Keeping your food fresh with expert care.          </p>
         </div>
       </section>
 

@@ -32,7 +32,7 @@ const ProjectDetails = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>{project.title} | Technical Case Study | Appliance Kick</title>
+        <title>{project.title} | Service Case Study | Appliance Kick</title>
         <meta name="description" content={project.description || project.title} />
       </Helmet>
 
@@ -73,10 +73,10 @@ const ProjectDetails = () => {
                 />
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-black text-[#0f172a] mb-8">Technical Narrative</h2>
+              <h2 className="text-3xl md:text-4xl font-black text-[#0f172a] mb-8">Service Narrative</h2>
               <div className="prose prose-lg max-w-none text-gray-600 font-medium leading-relaxed space-y-8">
                 <p className="text-xl text-[#0f172a] font-bold">
-                  {project.description || "This project involved a complex restoration of high-end residential equipment, focusing on technical integrity and long-term reliability."}
+                  {project.description || "This project involved a complex restoration of high-end residential equipment, focusing on professional integrity and long-term reliability."}
                 </p>
                 <div className="space-y-6">
                   {project.fullDescription || (
@@ -85,7 +85,7 @@ const ProjectDetails = () => {
                         The diagnostic phase began with a comprehensive audit of the appliance's electronic and mechanical subsystems. Our team utilized advanced sensors to identify precision faults that were affecting overall performance.
                       </p>
                       <p>
-                        Using manufacturer-grade spare parts, we systematically replaced the faulty components and recalibrated the control logic. This approach ensures that the appliance not only works again but operates at its original technical specifications.
+                        Using manufacturer-grade spare parts, we systematically replaced the faulty components and recalibrated the control logic. This approach ensures that the appliance not only works again but operates at its original performance specifications.
                       </p>
                     </>
                   )}

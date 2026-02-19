@@ -48,7 +48,7 @@ const Header = () => {
   return (
     <div className="fixed top-0 left-0 w-full z-[120] font-sans">
       {/* ===== Top Bar ===== */}
-      <div className="bg-[#f6f7f9] border-b border-slate-200/70 relative">
+      <div className="hidden bg-[#f6f7f9] border-b border-slate-200/70 relative">
         <div className="container mx-auto px-0 md:px-4">
           <div className="flex flex-col md:flex-row items-center justify-between min-h-10">
             {/* Left section */}
@@ -159,7 +159,7 @@ const Header = () => {
                 </div>
 
                 <div className="flex items-center gap-8 relative z-20">
-                  <div className="flex flex-col">
+                  <div className="hidden flex flex-col">
                     <span className="text-white/70 text-[10px] font-bold uppercase tracking-widest leading-none mb-1">Call for support</span>
                     <span className="text-white text-lg font-extrabold tracking-tight whitespace-nowrap">
                       +1 (530) 554-4817
@@ -256,7 +256,7 @@ const Header = () => {
                 );
               })}
 
-              <div className="mt-6 p-4 rounded-2xl bg-[#1e63ff] text-white">
+              <div className="hidden mt-6 p-4 rounded-2xl bg-[#1e63ff] text-white">
                 <div className="text-xs opacity-80 font-semibold">Call Us</div>
                 <div className="text-lg font-extrabold mt-1">+1 (530) 554-4817</div>
                 <a

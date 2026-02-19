@@ -73,33 +73,7 @@ const BlogDetails = () => {
 
             {/* Article Content */}
             <div className="prose prose-lg max-w-none text-gray-600 font-medium leading-relaxed space-y-8">
-              <p className="text-xl text-[#0f172a] font-bold">
-                Maintaining your home appliances is not just about convenience; it's about efficiency, safety, and long-term savings. In this guide, we dive deep into the technical aspects of keeping your equipment in top shape.
-              </p>
-              
-              <div dangerouslySetInnerHTML={{ __html: blog.content }} />
-              
-              {!blog.content && (
-                <div className="space-y-8">
-                  <p>
-                    Modern household technology is built to last, but even the highest quality appliances require regular technical checks. From the intricate logic boards of washing machines to the critical cooling systems in refrigerators, every component plays a vital role.
-                  </p>
-                  
-                  <h3 className="text-2xl font-black text-[#0f172a] pt-4">The Importance of Expert Diagnostics</h3>
-                  <p>
-                    Identifying a technical fault early can prevent small issues from turning into major repairs. Our certified technicians use professional diagnostic tools to analyze electronic circuits, mechanical alignment, and operational efficiency.
-                  </p>
-
-                  <div className="bg-gray-50 border-l-4 border-[#ff6a00] p-8 rounded-r-3xl my-12 italic">
-                    "Regular maintenance can extend the lifespan of your essential home equipment by up to 30%, while significantly reducing energy consumption."
-                  </div>
-
-                  <h3 className="text-2xl font-black text-[#0f172a] pt-4">Sustainable Repair Solutions</h3>
-                  <p>
-                    We focus on systematic restoration using manufacturer-grade spare parts. This ensures that every fix meets the original technical specifications of the appliance, maintaining its integrity and performance.
-                  </p>
-                </div>
-              )}
+              <div dangerouslySetInnerHTML={{ __html: blog.longDesc }} />
             </div>
 
             {/* Share & Tag Section */}

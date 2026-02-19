@@ -24,7 +24,7 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">AGREEMENT TO OUR LEGAL TERMS</h2>
             <p>
               We are Appliance Kick ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company registered in California, 
-              United States at Grandview, Glendale, CA 91201.
+              United States at 2010 N Loop W #105, Houston, TX 77018.
             </p>
             <p>
               We operate the website <a href="http://appliancekick.com/" className="text-primary hover:text-secondary">http://appliancekick.com/</a> (the "<strong>Site</strong>"), as well as any other related 
@@ -38,8 +38,8 @@ const TermsOfService = () => {
               effective servicing.
             </p>
             <p>
-              You can contact us by phone at +1 (530) 554-4817, email at <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>, or by 
-              mail to Grandview, Glendale, CA 91201, United States.
+              You can contact us by email at <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>, or by 
+              mail to 2010 N Loop W #105, Houston, TX 77018, United States.
             </p>
             <p>
               These Legal Terms constitute a legally binding agreement made between you, whether 
@@ -276,10 +276,9 @@ const TermsOfService = () => {
             <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               Appliance Kick<br />
-              Grandview<br />
-              Glendale, CA 91201<br />
+              2010 N Loop W #105<br />
+              Houston, TX 77018<br />
               United States<br />
-              Phone: +1 (530) 554-4817<br />
               <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>
             </address>
           </section>

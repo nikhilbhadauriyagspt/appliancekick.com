@@ -57,8 +57,7 @@ const ClothesDryerRepair = () => {
             Clothes Dryer <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Specialized technical support for all electric and gas dryer models. Ensuring your laundry is dried safely and efficiently.
-          </p>
+                         Specialized support for all electric and gas dryer models. Ensuring your laundry is dried safely and efficiently.          </p>
         </div>
       </section>
 
@@ -155,7 +154,7 @@ const ClothesDryerRepair = () => {
 
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-10 leading-tight  relative z-10">
               Restore Your Dryer Efficiency <br />
-              <span className="text-[#ff6a00]">Book a Technical Visit Today</span>
+              <span className="text-[#ff6a00]">Book an Expert Visit Today</span>
             </h2>
 
             <div className="flex justify-center relative z-10">

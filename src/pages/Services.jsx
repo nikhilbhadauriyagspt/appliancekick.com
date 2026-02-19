@@ -15,7 +15,7 @@ const Services = () => {
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
         <title>Our Services | Appliance Kick - Expert Repair Solutions</title>
-        <meta name="description" content="Precision maintenance for high-end residential and commercial equipment. Delivering technical perfection across all appliance categories." />
+        <meta name="description" content="Precision maintenance for high-end residential and commercial equipment. Delivering professional perfection across all appliance categories." />
         <link rel="canonical" href="https://www.appliancekick.com/services" />
       </Helmet>
 
@@ -34,7 +34,7 @@ const Services = () => {
             Our Professional <span className="text-[#ff6a00]">Services</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Precision maintenance for residential equipment. Delivering technical perfection across all home appliance categories.
+            Precision maintenance for residential equipment. Delivering expert perfection across all home appliance categories.
           </p>
         </div>
       </section>
@@ -106,7 +106,7 @@ const Services = () => {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-[#ff6a00]/10 rounded-full translate-y-1/2 -translate-x-1/2 animate-pulse"></div>
 
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-10 leading-tight  relative z-10">
-              Technical Perfection <br />
+              Professional Perfection <br />
               <span className="text-[#ff6a00]">At Your Doorstep</span>
             </h2>
 

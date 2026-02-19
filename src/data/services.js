@@ -17,7 +17,7 @@ export const servicesData = [
     iconName: "FaSnowflake",
     title: "Refrigerator Repair",
     shortDesc: "Maintenance and repair for residential refrigerators and freezers.",
-    longDesc: "We offer technical support for cooling issues, compressor malfunctions, and thermostat calibration. Our services cover major household brands and aim to restore standard operating temperatures.",
+    longDesc: "We offer support for cooling issues, compressor malfunctions, and thermostat calibration. Our services cover major household brands and aim to restore standard operating temperatures.",
     features: ["Compressor diagnostics", "Thermostat check", "Coolant level check", "Door seal inspection"],
     image: "/service-2.jpg",
     slug: "refrigerator"
@@ -26,7 +26,7 @@ export const servicesData = [
     id: 3,
     iconName: "FaPlug",
     title: "Dishwasher Repair",
-    shortDesc: "Technical support for built-in and portable dishwasher units.",
+    shortDesc: "Support for built-in and portable dishwasher units.",
     longDesc: "Services include addressing drainage problems, water leakage, and cleaning cycle inefficiencies. We provide component-level diagnostics for pumps, spray arms, and heating elements.",
     features: ["Pump diagnostics", "Spray arm cleaning", "Heating element test", "Leak detection"],
     image: "/service-3.jpg",
@@ -66,7 +66,7 @@ export const servicesData = [
     id: 8,
     iconName: "FaMicrochip",
     title: "Microwave Oven Repair",
-    shortDesc: "Technical repair for heating and electrical microwave issues.",
+    shortDesc: "Professional repair for heating and electrical microwave issues.",
     longDesc: "Common repairs include magnetron replacement, touch panel restoration, and diode testing. We follow safety protocols for all high-voltage appliance repairs.",
     features: ["Magnetron testing", "Touch pad diagnostics", "Diode inspection", "Fuse replacement"],
     image: "/service-8.jpg",
@@ -87,7 +87,7 @@ export const servicesData = [
     iconName: "FaWater",
     title: "Water Purifier Repair",
     shortDesc: "Filter replacement and RO system maintenance.",
-    longDesc: "Technical support for water purification systems, including RO membrane checks, filter changes, and pump maintenance to ensure output quality.",
+    longDesc: "Support for water purification systems, including RO membrane checks, filter changes, and pump maintenance to ensure output quality.",
     features: ["Filter replacement", "Pump inspection", "TDS monitoring", "UV lamp testing"],
     image: "/service-10.jpg",
     slug: "water-purifier"
@@ -117,8 +117,8 @@ export const servicesData = [
     iconName: "FaTools",
     title: "Other Appliances",
     shortDesc: "General repair services for various household appliances.",
-    longDesc: "We provide diagnostic and repair solutions for a variety of small and large household appliances based on part availability and technical feasibility.",
-    features: ["Technical diagnostics", "Component testing", "Safety inspection", "Troubleshooting"],
+    longDesc: "We provide diagnostic and repair solutions for a variety of small and large household appliances based on part availability and service feasibility.",
+    features: ["Expert diagnostics", "Component testing", "Safety inspection", "Troubleshooting"],
     image: "/service-6.jpg",
     slug: "other-appliances"
   }

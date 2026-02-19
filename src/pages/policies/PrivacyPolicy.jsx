@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Visit our website at <a href="http://appliancekick.com/" className="text-primary hover:text-secondary">http://appliancekick.com/</a> or any website of ours that links to this Privacy Notice</li>
-              <li>Use Appliance Kick. At Appliance Kick, we focus on technical accuracy and timely service. Our business is built on providing diagnostic clarity and performing repairs that aim to extend the lifecycle of your household appliances. We serve residential clients with a commitment to maintaining standard operating procedures.</li>
+              <li>Use Appliance Kick. At Appliance Kick, we focus on precision accuracy and timely service. Our business is built on providing diagnostic clarity and performing repairs that aim to extend the lifecycle of your household appliances. We serve residential clients with a commitment to maintaining standard operating procedures.</li>
               <li>Engage with us in other related ways, including any marketing or events</li>
             </ul>
             <p>
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
               <p><strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.</p>
               <p><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about how we process your information.</p>
               <p><strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Learn more about when and with whom we share your personal information.</p>
-              <p><strong>How do we keep your information safe?</strong> We have adequate organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe.</p>
+              <p><strong>How do we keep your information safe?</strong> We have adequate organizational and security processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe.</p>
               <p><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about your privacy rights.</p>
               <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a data subject access request, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
               <p>Want to learn more about what we do with any information we collect? Review the Privacy Notice in full.</p>
@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
 
             <p className="font-bold mt-6">Information automatically collected</p>
             <p><em>In Short: Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services.</em></p>
-            <p>We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.</p>
+            <p>We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other usage information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.</p>
             <p>The information we collect includes:</p>
             <ul className="list-disc pl-10">
               <li><strong>Location Data.</strong> We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.</li>
@@ -154,8 +154,8 @@ const PrivacyPolicy = () => {
 
           <section id="safe">
             <h3 className="text-xl font-bold text-gray-900 border-b pb-2 mb-4">7. HOW DO WE KEEP YOUR INFORMATION SAFE?</h3>
-            <p><em>In Short: We aim to protect your personal information through a system of organizational and technical security measures.</em></p>
-            <p>We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
+            <p><em>In Short: We aim to protect your personal information through a system of organizational and robust security measures.</em></p>
+            <p>We have implemented appropriate and reasonable robust and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
           </section>
 
           <section id="minors">
@@ -277,8 +277,8 @@ const PrivacyPolicy = () => {
             <p>If you have questions or comments about this notice, you may email us at <strong>ApplianceKick@outlook.com</strong> or contact us by post at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               Appliance Kick<br />
-              Grandview<br />
-              Glendale, CA 91201<br />
+              2010 N Loop W #105<br />
+              Houston, TX 77018<br />
               United States
             </address>
           </section>

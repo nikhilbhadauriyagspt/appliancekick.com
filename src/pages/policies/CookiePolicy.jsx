@@ -51,7 +51,7 @@ const CookiePolicy = () => {
               <li>Improve our services and user experience</li>
             </ul>
             <p>
-              Cookies may collect technical information such as IP address, browser type, device 
+              Cookies may collect device information such as IP address, browser type, device 
               information, and browsing behavior, as described in our <Link to="/privacy-policy" className="text-primary hover:underline font-bold">PRIVACY POLICY</Link>.
             </p>
           </section>
@@ -126,11 +126,10 @@ const CookiePolicy = () => {
             <p>If you have questions or concerns about this Cookie Policy or our use of cookies, you may contact us at:</p>
             <address className="not-italic bg-gray-50 p-8 rounded-2xl border border-gray-100 mt-4 leading-relaxed font-bold">
               Appliance Kick<br />
-              Grandview<br />
-              Glendale, CA 91201<br />
+              2010 N Loop W #105<br />
+              Houston, TX 77018<br />
               United States<br />
-              Email: <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a><br />
-              Phone: +1 (530) 554-4817
+              Email: <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>
             </address>
           </section>
         </div>

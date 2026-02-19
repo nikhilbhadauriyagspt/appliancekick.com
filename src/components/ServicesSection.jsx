@@ -113,7 +113,7 @@ const ServicesSection = () => {
               <div className="relative z-10 rounded-[24px] overflow-hidden shadow-2xl border-4 border-white/10">
                 <img
                   src={imgUrl}
-                  alt="Our Expert Technical Service"
+                  alt="Our Expert Service"
                   className="w-full h-[400px] md:h-[550px] object-cover hover:scale-105 transition-transform duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F3B]/40 to-transparent"></div>

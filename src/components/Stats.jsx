@@ -2,7 +2,7 @@ import React from 'react';
 import { FaUserShield, FaBolt, FaAward, FaHistory, FaCheckCircle, FaTools, FaShieldAlt, FaClock } from 'react-icons/fa';
 
 const features = [
-  { icon: <FaShieldAlt />, label: "Security", val: "Vetted", sub: "Technical Team" },
+  { icon: <FaShieldAlt />, label: "Security", val: "Vetted", sub: "Expert Team" },
   { icon: <FaClock />, label: "Response", val: "Prompt", sub: "Service Visits" },
   { icon: <FaTools />, label: "Standard", val: "Verified", sub: "Spare Parts" },
   { icon: <FaCheckCircle />, label: "Warranty", val: "Labor", sub: "Coverage" }

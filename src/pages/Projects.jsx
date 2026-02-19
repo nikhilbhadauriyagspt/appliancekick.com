@@ -27,7 +27,7 @@ const Projects = () => {
             <span className="text-white text-[10px] font-black uppercase tracking-[4px]">Success Stories</span>
           </div>
           <h1 className="text-4xl md:text-7xl font-black text-white mb-8">
-            Technical Case Studies
+            Service Case Studies
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
             A curated selection of complex restoration projects demonstrating our commitment to engineering perfection and client satisfaction.
@@ -68,7 +68,7 @@ const Projects = () => {
                     {project.title}
                   </h3>
                   <p className="text-white/40 text-sm md:text-base leading-relaxed font-medium mb-8 line-clamp-2">
-                    {project.shortDesc || "Detailed technical restoration and performance optimization for residential equipment."}
+                    {project.shortDesc || "Detailed expert restoration and performance optimization for residential equipment."}
                   </p>
                   
                   <div className="mt-auto flex items-center justify-between">

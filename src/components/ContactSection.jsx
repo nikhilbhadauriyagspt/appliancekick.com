@@ -42,14 +42,14 @@ const ContactSection = () => {
                 <span className="w-2 h-2 rounded-full bg-[#ff6a00]"></span>
                 <span className="text-[#0f172a] text-xs font-bold uppercase tracking-wider">Contact Us</span>
               </div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-[#0B0F3B] leading-[1.1] uppercase tracking-tighter">
+              <h2 className="text-4xl md:text-5xl  font-black text-[#0B0F3B] leading-[1.1] ">
                 Your Free Growth Chat <br />
                 <span className="text-gray-400">Starts Here</span>
               </h2>
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/50 flex flex-col sm:flex-row gap-8 lg:gap-12">
-              <div className="flex items-center gap-4">
+              <div className="hidden flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-[#1E63FF] flex items-center justify-center text-white shrink-0">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -83,7 +83,7 @@ const ContactSection = () => {
               <div className="text-center py-16 text-white">
                 <div className="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6"><svg className="w-10 h-10 text-[#ff6a00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" /></svg></div>
                 <h3 className="text-3xl font-black mb-4">Inquiry Received</h3>
-                <p className="text-white/60 mb-8 max-w-sm mx-auto">Thank you for your message. Our technical team will review your inquiry and contact you shortly.</p>
+                <p className="text-white/60 mb-8 max-w-sm mx-auto">Thank you for your message. Our expert team will review your inquiry and contact you shortly.</p>
                 <button onClick={() => setIsSubmitted(false)} className="bg-white text-[#0B0F3B] px-8 py-3 rounded-full font-bold">New Message</button>
               </div>
             ) : (

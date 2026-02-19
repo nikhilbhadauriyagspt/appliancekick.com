@@ -38,7 +38,7 @@ const TelevisionRepair = () => {
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
         <title>Television Repair | Professional Screen & Audio Fix | Appliance Kick</title>
-        <meta name="description" content="Expert TV repair for all LED, LCD, and Smart models. Certified technical support for major global brands with genuine component replacements." />
+        <meta name="description" content="Expert TV repair for all LED, LCD, and Smart models. Certified support for major global brands with genuine component replacements." />
       </Helmet>
 
       {/* Page Hero Section */}
@@ -57,8 +57,7 @@ const TelevisionRepair = () => {
             Television <span className="text-[#ff6a00]">Repair</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Specialized technical support for all LED, LCD, and Smart TV models. Restoring your home entertainment with precision and care.
-          </p>
+                         Specialized support for all LED, LCD, and Smart TV models. Restoring your home entertainment with precision and care.          </p>
         </div>
       </section>
 

@@ -11,20 +11,20 @@ const HowItWorksSection = () => {
     {
       id: "02",
       title: "Fault Identification",
-      desc: "Our experts pin-point the specific technical fault and provide a detailed repair plan.",
-      translate: "lg:translate-y-12"
+      desc: "Our experts pin-point the specific core issue and provide a detailed repair plan.",
+      translate: "lg:translate-y-0"
     },
     {
       id: "03",
       title: "Repair or Replacement",
       desc: "We perform high-quality repairs or replace faulty parts with genuine factory components.",
-      translate: "lg:translate-y-4"
+      translate: "lg:translate-y-0"
     },
     {
       id: "04",
       title: "Testing & Final Check",
       desc: "A rigorous post-repair test is conducted to ensure the appliance is working at peak efficiency.",
-      translate: "lg:translate-y-16"
+      translate: "lg:translate-y-0"
     }
   ];
 
@@ -50,8 +50,7 @@ const HowItWorksSection = () => {
           </div>
           <div className="max-w-lg lg:pt-2">
             <p className="text-gray-400 text-sm md:text-base leading-relaxed font-medium">
-              We provide systematic technical support for residential appliances delivering professional-grade maintenance protocols.
-            </p>
+              We provide systematic support for residential appliances delivering professional-grade maintenance protocols.            </p>
           </div>
         </div>
 
@@ -86,30 +85,6 @@ const HowItWorksSection = () => {
           ))}
         </div>
 
-        {/* Bottom CTA Info Bar */}
-        <div className="flex justify-center">
-          <div className="inline-flex flex-col md:flex-row items-center gap-4 md:gap-8 px-6 md:px-10 py-4 md:py-3 rounded-full bg-[#EEF3FF] border border-[#1738B5]/5">
-            <div className="flex items-center gap-4">
-              <div className="w-8 h-8 rounded-full bg-[#1738B5] flex items-center justify-center text-white">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <p className="text-[#0f172a] font-bold text-sm md:text-base">
-                Helped reduce energy bills by 25% for a client
-              </p>
-            </div>
-
-            <div className="h-4 w-[1px] bg-gray-300 hidden md:block"></div>
-
-            <a href="#" className="text-[#0f172a] font-black text-xs uppercase tracking-widest flex items-center gap-2 hover:text-[#1738B5] transition-colors group">
-              Know All Features
-              <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="3">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-          </div>
-        </div>
 
       </div>
     </section>

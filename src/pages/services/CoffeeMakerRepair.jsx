@@ -37,7 +37,7 @@ const CoffeeMakerRepair = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Coffee Maker Repair | Expert Technical Support | Appliance Kick</title>
+        <title>Coffee Maker Repair | Expert Support | Appliance Kick</title>
         <meta name="description" content="Professional repair services for all home and commercial coffee makers. Specialized maintenance for espresso machines and drip systems." />
       </Helmet>
 
@@ -57,7 +57,7 @@ const CoffeeMakerRepair = () => {
             Coffee Maker <span className="text-[#ff6a00]">Service</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-            Technical restoration for all major espresso and coffee brewing systems. Ensuring your daily brew is perfect every time.
+            Expert restoration for all major espresso and coffee brewing systems. Ensuring your daily brew is perfect every time.
           </p>
         </div>
       </section>
@@ -91,7 +91,7 @@ const CoffeeMakerRepair = () => {
               </h2>
 
               <p className="text-gray-500 text-lg md:text-xl leading-relaxed mb-10 font-medium">
-                Whether it's a high-end espresso machine or a standard drip brewer, technical faults can ruin your coffee experience. Our experts specialize in descaling, pressure calibration, and component replacement to keep your equipment running smoothly.
+                Whether it's a high-end espresso machine or a standard drip brewer, mechanical or electrical faults can ruin your coffee experience. Our experts specialize in descaling, pressure calibration, and component replacement to keep your equipment running smoothly.
               </p>
 
               <div className="flex flex-col gap-5 mb-12">

@@ -143,10 +143,10 @@ const HeroSection = () => {
       })}
 
       {/* Navigation Arrows */}
-      <div className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-30 flex flex-col gap-4">
+      <div className="absolute right-6 lg:right-12 bottom-6 lg:bottom-10 z-30 flex gap-4">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 lg:w-14 lg:h-14 flex items-center justify-center rounded-full bg-transparent hover:bg-[#ff6a00] hover:border-[#ff6a00] hover:text-white text-[#0f0f0f] transition-all group border-2 border-gray-400"
+          className="w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-md hover:bg-[#ff6a00] hover:text-white text-white transition-all group border border-white/20"
           aria-label="Previous Slide"
         >
           <svg className="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -156,7 +156,7 @@ const HeroSection = () => {
 
         <button
           onClick={nextSlide}
-          className="w-12 h-12 lg:w-14 lg:h-14 flex items-center justify-center rounded-full bg-transparent hover:bg-[#ff6a00] hover:border-[#ff6a00] hover:text-white text-[#0f0f0f] transition-all group border-2 border-gray-400"
+          className="w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-md hover:bg-[#ff6a00] hover:text-white text-white transition-all group border border-white/20"
           aria-label="Next Slide"
         >
           <svg className="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
