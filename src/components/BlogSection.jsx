@@ -1,30 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { blogsData } from '../data/blogs';
 
 const BlogSection = () => {
-  const blogs = [
-    {
-      id: 1,
-      category: "AC Running",
-      date: "December 1, 2025",
-      title: "How to Keep Your AC Running Efficiently All Year Long",
-      image: "/service-1.jpg"
-    },
-    {
-      id: 2,
-      category: "Installation",
-      date: "December 1, 2025",
-      title: "Why Regular AC Maintenance Saves You Money Long Run",
-      image: "/service-2.jpg"
-    },
-    {
-      id: 3,
-      category: "Thermostat",
-      date: "December 1, 2025",
-      title: "The Ultimate Guide to Choosing the Right Air Conditioner",
-      image: "/service-3.jpg"
-    }
-  ];
-
   return (
     <section className="py-24 bg-white font-sans overflow-hidden">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
@@ -44,8 +22,8 @@ const BlogSection = () => {
 
         {/* Blog Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
-          {blogs.map((blog) => (
-            <div key={blog.id} className="flex flex-col group cursor-pointer">
+          {blogsData.map((blog) => (
+            <Link to={`/blog/${blog.id}`} key={blog.id} className="flex flex-col group cursor-pointer">
 
               {/* Image Container */}
               <div className="relative rounded-[22px] overflow-hidden mb-8 aspect-[4/3]">
@@ -60,7 +38,7 @@ const BlogSection = () => {
               <div className="flex items-center gap-4 mb-5">
                 <div className="px-4 py-1.5 rounded-full bg-[#EEF1FF] inline-block">
                   <span className="text-[#07124A] text-[10px] md:text-xs font-bold uppercase tracking-wider">
-                    {blog.category}
+                    {blog.category || 'Maintenance'}
                   </span>
                 </div>
                 <span className="text-gray-400 text-xs md:text-sm font-medium">
@@ -91,7 +69,7 @@ const BlogSection = () => {
                 </div>
               </div>
 
-            </div>
+            </Link>
           ))}
         </div>
 
