@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.appliancekick.com/sitemap.xml
+
+
