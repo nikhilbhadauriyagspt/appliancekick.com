@@ -12,7 +12,7 @@ const Contact = () => {
     subject: '',
     message: ''
   });
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,7 +24,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    
+
     try {
       const response = await fetch(API_ENDPOINTS.CONTACT, {
         method: 'POST',
@@ -53,7 +53,7 @@ const Contact = () => {
       {/* Page Hero Section */}
       <section className="relative pt-44 pb-32 bg-[#0B0F3B] overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-white/[0.03] -skew-x-12 translate-x-1/4 pointer-events-none"></div>
-        
+
         <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-center">
           <div className="inline-flex items-center gap-3 bg-white/5 px-5 py-2 rounded-full mb-8 border border-white/10">
             <span className="w-2 h-2 rounded-full bg-[#ff6a00] animate-pulse"></span>
@@ -72,7 +72,7 @@ const Contact = () => {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6 md:px-12 lg:px-24">
           <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
-            
+
             {/* Left side: Contact Details */}
             <div className="w-full lg:w-1/2">
               <div className="inline-flex items-center gap-2.5 px-4 py-1.5 mb-6 rounded-full bg-gray-100 border border-gray-200">
@@ -91,7 +91,7 @@ const Contact = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {[
                   { icon: <FaPhoneAlt />, label: "Call Us", val: "+1 (530) 554-4817" },
-                  { icon: <FaEnvelope />, label: "Email Us", val: "ApplianceKick@outlook.com" },
+                  { icon: <FaEnvelope />, label: "Email Us", val: "info@appliancekick.shop" },
                   { icon: <FaMapMarkerAlt />, label: "Location", val: "Your Service Area" },
                   { icon: <FaClock />, label: "Hours", val: "Mon-Sat: 8AM - 9PM" }
                 ].filter(item => item.label !== "Call Us").map((item, index) => (
@@ -128,7 +128,7 @@ const Contact = () => {
                     </div>
                     <input name="subject" onChange={handleChange} required type="text" placeholder="Subject" className="w-full bg-white border border-transparent focus:border-[#ff6a00] outline-none rounded-2xl px-6 py-4 text-[#0B0F3B] font-medium transition-all" />
                     <textarea name="message" onChange={handleChange} required rows="5" placeholder="Your Message" className="w-full bg-white border border-transparent focus:border-[#ff6a00] outline-none rounded-2xl px-6 py-4 text-[#0B0F3B] font-medium transition-all resize-none"></textarea>
-                    
+
                     <button disabled={isLoading} type="submit" className="w-full bg-[#0B0F3B] text-white hover:bg-[#ff6a00] py-5 rounded-full font-black tracking-widest transition-all duration-300 flex items-center justify-center gap-4">
                       {isLoading ? <FaSpinner className="animate-spin" /> : "SEND A MESSAGE"}
                     </button>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_ENDPOINTS } from '../config/api';
 
 const ContactSection = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -17,7 +18,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/api/contact.php', {
+      const response = await fetch(API_ENDPOINTS.CONTACT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
@@ -58,7 +59,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-[#0B0F3B] font-black text-xs uppercase tracking-widest mb-1">Phone</p>
                   <p className="text-[#0B0F3B] font-bold text-sm">+1 (530) 554-4817</p>
-                  <p className="text-gray-400 text-xs font-medium">ApplianceKick@outlook.com</p>
+                  <p className="text-gray-400 text-xs font-medium">info@appliancekick.shop</p>
                 </div>
               </div>
 

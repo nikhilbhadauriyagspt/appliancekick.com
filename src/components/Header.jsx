@@ -73,11 +73,11 @@ const Header = () => {
               <div className="hidden md:block w-px h-4 bg-slate-200 mx-2"></div>
 
               <a
-                href="mailto:ApplianceKick@outlook.com"
+                href="mailto:info@appliancekick.shop"
                 className="inline-flex items-center gap-2 hover:text-[#ff6a00] transition-colors"
               >
                 <FiMail className="text-[#ff6a00] text-[15px]" />
-                ApplianceKick@outlook.com
+                info@appliancekick.shop
               </a>
             </div>
           </div>

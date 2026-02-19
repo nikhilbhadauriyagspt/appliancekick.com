@@ -13,55 +13,55 @@ const TermsOfService = () => {
         <meta name="description" content="Official Terms of Service for Appliance Kick. Agreement to our legal terms and conditions." />
         <link rel="canonical" href="https://www.appliancekick.com/terms-of-service" />
       </Helmet>
-      
+
       <div className="container mx-auto px-4 max-w-5xl">
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4 uppercase">Terms of Service</h1>
         <p className="text-gray-500 mb-12 italic">Last updated February 06, 2026</p>
-        
+
         <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-8">
-          
+
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4 uppercase">AGREEMENT TO OUR LEGAL TERMS</h2>
             <p>
-              We are Appliance Kick ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company registered in California, 
+              We are Appliance Kick ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company registered in California,
               United States at 2010 N Loop W #105, Houston, TX 77018.
             </p>
             <p>
-              We operate the website <a href="http://appliancekick.com/" className="text-primary hover:text-secondary">http://appliancekick.com/</a> (the "<strong>Site</strong>"), as well as any other related 
-              products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, 
+              We operate the website <a href="http://appliancekick.com/" className="text-primary hover:text-secondary">http://appliancekick.com/</a> (the "<strong>Site</strong>"), as well as any other related
+              products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively,
               the "<strong>Services</strong>").
             </p>
             <p>
-              Appliance Kick was founded on the principle that household repairs should be handled with 
-              the same level of precision as industrial maintenance. We recognize that modern appliances 
-              are complex electronic systems that require specialized knowledge and calibrated tools for 
+              Appliance Kick was founded on the principle that household repairs should be handled with
+              the same level of precision as industrial maintenance. We recognize that modern appliances
+              are complex electronic systems that require specialized knowledge and calibrated tools for
               effective servicing.
             </p>
             <p>
-              You can contact us by email at <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>, or by 
+              You can contact us by email at <a href="mailto:info@appliancekick.shop" className="text-primary">info@appliancekick.shop</a>, or by
               mail to 2010 N Loop W #105, Houston, TX 77018, United States.
             </p>
             <p>
-              These Legal Terms constitute a legally binding agreement made between you, whether 
-              personally or on behalf of an entity ("<strong>you</strong>"), and Appliance Kick, concerning your access to 
-              and use of the Services. You agree that by accessing the Services, you have read, 
-              understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE 
-              WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE 
-              SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
+              These Legal Terms constitute a legally binding agreement made between you, whether
+              personally or on behalf of an entity ("<strong>you</strong>"), and Appliance Kick, concerning your access to
+              and use of the Services. You agree that by accessing the Services, you have read,
+              understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE
+                WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE
+                SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
             </p>
             <p>
-              Supplemental terms and conditions or documents that may be posted on the Services from 
-              time to time are hereby expressly incorporated herein by reference. We reserve the right, in 
-              our sole discretion, to make changes or modifications to these Legal Terms at any time and 
-              for any reason. We will alert you about any changes by updating the "Last updated" date of 
-              these Legal Terms, and you waive any right to receive specific notice of each such change. It 
-              is your responsibility to periodically review these Legal Terms to stay informed of updates. 
-              You will be subject to, and will be deemed to have been made aware of and to have 
-              accepted, the changes in any revised Legal Terms by your continued use of the Services after 
+              Supplemental terms and conditions or documents that may be posted on the Services from
+              time to time are hereby expressly incorporated herein by reference. We reserve the right, in
+              our sole discretion, to make changes or modifications to these Legal Terms at any time and
+              for any reason. We will alert you about any changes by updating the "Last updated" date of
+              these Legal Terms, and you waive any right to receive specific notice of each such change. It
+              is your responsibility to periodically review these Legal Terms to stay informed of updates.
+              You will be subject to, and will be deemed to have been made aware of and to have
+              accepted, the changes in any revised Legal Terms by your continued use of the Services after
               the date such revised Legal Terms are posted.
             </p>
             <p>
-              The Services are intended for users who are at least 18 years old. Persons under the age of 
+              The Services are intended for users who are at least 18 years old. Persons under the age of
               18 are not permitted to use or register for the Services.
             </p>
             <p>We recommend that you print a copy of these Legal Terms for your records.</p>
@@ -102,12 +102,12 @@ const TermsOfService = () => {
 
           <section id="intellectual">
             <h3 className="text-xl font-bold text-gray-900 border-b pb-2 mb-4 uppercase">2. INTELLECTUAL PROPERTY RIGHTS</h3>
-            
+
             <p className="font-bold mt-4">Our intellectual property</p>
             <p>We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the "Content"), as well as the trademarks, service marks, and logos contained therein (the "Marks").</p>
             <p>Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.</p>
             <p>The Content and Marks are provided in or through the Services "AS IS" for your personal, non-commercial use or internal business purpose only.</p>
-            
+
             <p className="font-bold mt-4">Your use of our Services</p>
             <p>Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable license to:</p>
             <ul className="list-disc pl-10 space-y-1">
@@ -116,10 +116,10 @@ const TermsOfService = () => {
             </ul>
             <p>solely for your personal, non-commercial use or internal business purpose.</p>
             <p>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
-            <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
+            <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <a href="mailto:info@appliancekick.shop" className="text-primary">info@appliancekick.shop</a>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
             <p>We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.</p>
             <p>Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.</p>
-            
+
             <p className="font-bold mt-4">Your submissions</p>
             <p>Please review this section and the "PROHIBITED ACTIVITIES" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.</p>
             <p><strong>Submissions:</strong> By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), you agree to assign to us all intellectual property rights in such Submission. You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.</p>
@@ -279,7 +279,7 @@ const TermsOfService = () => {
               2010 N Loop W #105<br />
               Houston, TX 77018<br />
               United States<br />
-              <a href="mailto:ApplianceKick@outlook.com" className="text-primary">ApplianceKick@outlook.com</a>
+              <a href="mailto:info@appliancekick.shop" className="text-primary">info@appliancekick.shop</a>
             </address>
           </section>
         </div>

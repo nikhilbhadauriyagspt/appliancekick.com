@@ -121,7 +121,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col gap-1 pt-2">
                 <span className="text-white font-semibold text-sm uppercase tracking-widest text-[#FF6A3D]">Contact</span>
-                <a href="mailto:ApplianceKick@outlook.com" className="text-slate-400 hover:text-white transition-colors">ApplianceKick@outlook.com</a>
+                <a href="mailto:info@appliancekick.shop" className="text-slate-400 hover:text-white transition-colors">info@appliancekick.shop</a>
               </div>
               <div className="hidden flex flex-col gap-1 pt-2">
                 <span className="text-white font-semibold text-sm uppercase tracking-widest text-[#FF6A3D]">Phone</span>
